@@ -1,0 +1,15 @@
+navbar_entries:
+  - title: about
+    url: about
+
+  - title: visualization
+    url: visualization
+
+  - title: website
+    url: https://kartikpaliwal.ml
+
+misc_entries:
+
+  - title: Blog posts
+    post_list: true
+    url: false

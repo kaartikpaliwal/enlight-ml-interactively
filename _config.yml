@@ -1,0 +1,86 @@
+title: Interactive Explanations 
+email: avinashpaliwal961@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Collection of interactive explanations of machine learning concepts I understood while reading several books.
+
+permalink: /:slug.html # the subpath of our site, e.g. /blog
+url: https://enlightmlinteractively.ml # the root hostname & protocol for the site.
+
+
+# Author settings
+author: Kartik Paliwal
+author-pic: mypic.png
+about-author: Machine Learning Explorer.
+
+
+# Contact links
+email: # Add your Email address
+phone: # Add your Phone number
+website: kartikpaliwal.ml # Add your website, do not add http://
+linkedin: kartikpaliwal# Add your Linkedin handle
+github: kartikpaliwal # Add your Github handle
+twitter:
+    username: kaartikpaliwal  # update or delete this
+    card: summary_large_image
+
+
+favicon: "./logo.png" # relative path to site's favicon
+
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+disqus:
+  comments: true  # boolean type, the global switch for posts comments.
+  shortname: "kartikpaliwal"    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
+#tracker
+google_analytics:
+  # Fill with Google Analytics ID
+  id: 'UA-168615549-1'
+  # The Google Analytics pageviews switch.
+
+
+# Build settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    # default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+theme_config:
+  appearance: "dark" # can be "light", "dark" or "auto"
+  appearance_toggle: true # if appearance can be switched by user
+  back_home_text: "home.." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: true # show blog description
+  show_navbar: true # show horizontal navbar
+  show_footer: true # show footer links in home page,add in _data/home.yml
+  show_copyright: true # show copyright notice in footer
+  # following keys are using to create home layout
+  show_projects: true # show projects as cards, add in _data/home.yml
+  show_blog: true # show blog posts added in _posts
+  show_old_projects: true # show old projects as cards, add in _data/home.yml
+  show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
+  # options for "home" page
+  home:
+    title_misc_list: Details
+    title_blog: Explore
+
+
+highlighter: rouge
+
+sass:
+  style: :compressed
+
+
+
+include: [_pages] #add about and tags html pages inside _pages dir  
